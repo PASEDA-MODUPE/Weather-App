@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body >
+    
+    <div class="container">
+      <div class="weather">
+        <div style="text-align: center;"><input type="text"  placeholder="Enter city " id="city" style=" width: 40%; "><br>
+         
+          <button id="btn" style="background-color: rgb(97, 131, 163); margin-top: 1rem; width: 30%; border: none;background-color: red; border-radius: 5px; color: aliceblue;">Get Temperature</button>
+        </div>
+
+      <div class="time-div">
+        <span id="hours">00</span>
+        <span>:</span>
+        <span id="minutes">00</span>
+        <span>:</span>
+       <span id="seconds">00</span>
+       
+       <div id="first-city">
+        <h1 style="font-size: 1rem;">city</h1>
+        <p id="cityss"></p>
+      </div>
+      </div>
+      
+
+        <div class="result-div">
+
+            <div id="citys">
+              <h5>temp</h5>
+              <p id="temp"></p>
+              
+            </div>
+
+            <div id="citys">
+              <h5>humidity</h5>
+              <p id="humidity"></p>
+              
+            </div>
+
+            <div id="citys">
+              <h5>country</h5>
+              <p id="country"></p>
+              
+            </div>
+            
+        </div>
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

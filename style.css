@@ -24,7 +24,7 @@ input{
 
 }
 .weather{
-    /* height: 50%; */
+    
     box-shadow: 2px 2px  grey;
     border: 10px solid rgb(70, 67, 67);
     padding: 20px;
@@ -58,8 +58,6 @@ input{
     .result-div {
         
         flex-direction: column;
-        /* gap: 1rem;   */
-        
         
 };
     
